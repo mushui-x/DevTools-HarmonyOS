@@ -1,0 +1,53 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/exciter/.ohos/config/auto_debug_DevTools_cn.mushui.devtools_30086000768490133.cer",
+          "storePassword": "0000001B56542C4F46CA5E2A4DB6F56ED02231C33B521B9AAD5C475E06E751E4B244FC9E6A5F3D37FF5251",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B192951AE0732381C17FB75218BBB006A721AD0918EEB948602FE7EB475561A3A51FCCC3F1B3290",
+          "profile": "/Users/exciter/.ohos/config/auto_debug_DevTools_cn.mushui.devtools_30086000768490133.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/exciter/.ohos/config/auto_debug_DevTools_cn.mushui.devtools_30086000768490133.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "srcPath": "./common"
+    }
+  ]
+}

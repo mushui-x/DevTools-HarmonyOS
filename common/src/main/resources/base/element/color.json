@@ -1,0 +1,16 @@
+{
+  "color": [
+    {
+      "name": "feature_categories_header_title",
+      "value": "#00000000"
+    },
+    {
+      "name": "feature_title",
+      "value": "#00000000"
+    },
+    {
+      "name": "feature_card_bg",
+      "value": "#F0F0F0"
+    }
+  ]
+}
